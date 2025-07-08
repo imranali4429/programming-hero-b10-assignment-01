@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+/* assignment 01 */
 body {
   font-family: "Azeret Mono";
   margin: 0;
@@ -76,7 +77,7 @@ body {
 .hero img {
   max-width: 150px;
 }
-
+/* --------Why Web Development??-------------- */
 .why-dev-section {
   padding: 40px 20px;
   margin: 70px 130px;
@@ -84,6 +85,7 @@ body {
   text-align: center;
   background-color: rgba(13, 19, 33, 0.02);
   border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .why-dev-subsection {
@@ -124,7 +126,8 @@ body {
   flex-direction: row-reverse;
   /* text-align: right; */
 }
-
+/* --------------------------- */
+/* -------My Inspiration----------- */
 .section-inspiration {
   display: flex;
   flex-direction: column;
@@ -143,6 +146,7 @@ body {
   border-color: rgba(13, 19, 33, 0.2);
   border-radius: 16px;
 }
+/* --------------------------------------- */
 
 /* target section  */
 .section-target {
@@ -168,15 +172,15 @@ body {
 .html,
 .css,
 .js {
-  flex: 1 1 30%; /* Equal width with flexibility */
-  min-width: 250px; /* Prevents the card from becoming too small */
+  flex: 1 1 30%;
+  min-width: 250px;
   box-sizing: border-box;
   flex-direction: column;
   text-align: left;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 40px;
   border-radius: 16px;
-  height: 100%; /* allow stretching */
+  height: 100%;
 }
 .target-title {
   font-size: 24px;
@@ -188,10 +192,10 @@ body {
   color: rgba(13, 19, 33, 1);
   font-size: 16px;
   margin-bottom: 24px;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.card-body{
+.card-body {
   flex-grow: 2;
 }
 .target-learn-more {
@@ -222,10 +226,84 @@ body {
   border-radius: 10px;
   margin-top: 20px;
 }
+/* ------------------------------------ */
+/*----------- section-next-target ------------*/
+.section-next-target {
+  max-width: 1140px;
+  margin: 40px 130px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.next-target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.next-target-card {
+  margin: 20px 45px;
+}
 
-.support {
-  background: url("images/support-bg.jpg") no-repeat center/cover;
-  color: white;
+.next-target-text {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.next-target-img {
+  width: 95px;
+  height: 108px;
+  text-align: center;
+}
+
+/* -------------------------------- */
+
+/*-----------I need Support =--------*/
+.section-support {
+  background-image: linear-gradient(to right, rgba(43, 2, 2, 0.3)),
+    url(../assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 1092px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+  border-radius: 16px;
+  margin-left: 130px;
+}
+.support-card {
+  margin: 48px 50px;
+}
+.input-form {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  width: 548px;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+.support-description {
+  font-size: 16px;
+  font-weight: 400px;
+  opacity: 70%;
+  color: #ffffff;
+}
+.support-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.btn-form {
+  width: 120px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #0d1321;
+  padding: 16px;
 }
 
 .support input {
@@ -233,15 +311,24 @@ body {
   width: 250px;
   margin-top: 10px;
 }
+/* ------------------------------- */
 
+/*------- footer ------------*/
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 0 100px;
+}
+footer > p {
+  font-size: 20;
+  font-weight: 600;
+  color: rgba(13, 19, 33, 1);
 }
 
-.socials a {
+.social-icons a {
   margin: 0 10px;
   text-decoration: none;
   font-size: 20px;
 }
+/* ------------------------------------------ */
