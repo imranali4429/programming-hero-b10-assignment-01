@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Azeret Mono";
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+/* common style */
+.description-text-style {
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgba(13, 19, 33, 1);
+  opacity: 70%;
+}
+.sub-title-style {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0d1321;
+}
+.btn {
+  background-color: #ffffff;
+  color: #0d1321;
+  padding: 17px 24px;
+  border: 1px solid #0d1321;
+  margin-top: 38px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 600;
+}
+.card-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+/* ------------------------------------ */
+/* header section  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-weight: bold;
+  margin: 50px 150px;
+  width: 80%;
+}
+.title {
+  /* width: 100%; */
+  margin: 32px 221px 0 221px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-title {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 800;
+}
+.hero-description {
+  margin: 15px 50px 50px 15px;
+}
+.btn-contact-with-me {
+  background-color: #0d1321;
+  color: #ffffff;
+  padding: 21px 24px;
+  margin-top: 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: url("../assets/Hero-bg.png") no-repeat center/cover;
+}
+
+.hero img {
+  max-width: 150px;
+}
+
+.why-dev-section {
+  padding: 40px 20px;
+  margin: 70px 130px;
+  max-width: 1140px;
+  text-align: center;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+}
+
+.why-dev-subsection {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wds-title-section {
+  text-align: center;
+}
+.wds-description {
+  margin: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 946px;
+  border-radius: 16px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 1);
+  padding: 48px;
+  max-width: auto;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  gap: 95px;
+  border-radius: 16px;
+}
+.card-reverse {
+  flex-direction: row-reverse;
+  /* text-align: right; */
+}
+
+.section-inspiration {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.inspiration-subtitle {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.inspiration-description {
+  padding: 24px 170px 48px 170px;
+}
+
+.yt-video-link {
+  padding: 32px;
+  border-color: rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+
+/* target section  */
+.section-target {
+  max-width: 1140px;
+  text-align: center;
+  margin: 40px 130px;
+}
+
+.target-cards {
+  display: flex;
+  /* align-items: center;
+  justify-items: center; */
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.html-pic,
+.css-pic,
+.js-pic {
+  width: 56px;
+  height: 56px;
+}
+.html,
+.css,
+.js {
+  flex: 1 1 30%; /* Equal width with flexibility */
+  min-width: 250px; /* Prevents the card from becoming too small */
+  box-sizing: border-box;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 16px;
+  height: 100%; /* allow stretching */
+}
+.target-title {
+  font-size: 24px;
+  font-weight: 600px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.target-description {
+  color: rgba(13, 19, 33, 1);
+  font-size: 16px;
+  margin-bottom: 24px;
+  margin-left:10px;
+  margin-right:10px;
+}
+.card-body{
+  flex-grow: 2;
+}
+.target-learn-more {
+  border: none;
+  background: none;
+  text-align: left;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  color: rgba(13, 19, 33, 1);
+  font-size: 16px;
+  cursor: pointer;
+}
+.html {
+  background: rgba(255, 76, 30, 0.05);
+  max-height: 400px;
+}
+.css {
+  background: #e5f0ff;
+  max-height: 400px;
+}
+.js {
+  background: #fff5cc;
+  max-height: 400px;
+}
+
+.inspiration-img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.support {
+  background: url("images/support-bg.jpg") no-repeat center/cover;
+  color: white;
+}
+
+.support input {
+  padding: 10px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
